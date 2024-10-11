@@ -14859,12 +14859,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "vendor.semc.hardware.display@2.2-service",
+	name: "vendor.semc.hardware.display@2.4-service",
 	owner: "sony",
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/vendor.semc.hardware.display@2.2-service"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libbinder", "libmiscta", "libhwbinder", "libhidlbase", "libhidltransport", "vendor.semc.hardware.display@2.0", "vendor.semc.hardware.display@2.1", "vendor.semc.hardware.display@2.2", "libhardware", "libc++", "libc", "libm", "libdl", ],
+			srcs: ["proprietary/vendor/bin/hw/vendor.semc.hardware.display@2.4-service"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libbinder", "libmiscta", "libhwbinder", "libhidlbase", "libhidltransport", "vendor.semc.hardware.display@2.0", "vendor.semc.hardware.display@2.1", "vendor.semc.hardware.display@2.2", "vendor.semc.hardware.display@2.3", "vendor.semc.hardware.display@2.4", "libbase", "libhardware", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
